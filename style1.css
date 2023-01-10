@@ -1,0 +1,111 @@
+.cover {
+  background-image: url(/assets/images/mountains.jpg);
+  background-size: cover;
+  height: 1000px;
+  width: 1300px;
+}
+
+img .logo {
+  color: black;
+  width: 22px;
+  height: 24px;
+  margin-top: 31px;
+  padding: 0px;
+  opacity: 0.5;
+}
+
+#logoname {
+  color: black;
+  padding: 30px;
+  opacity: 0.5;
+}
+
+nav .menu {
+  position: relative;
+  left: 461px;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  vertical-align: top;
+  margin-right: 80px;
+  padding-right: 60px;
+  font-family: "Jost", sans-serif;
+}
+
+.menu:visited {
+  color: rgb(234, 0, 255);
+}
+
+.p1,
+.p2,
+.p3 {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Jost", sans-serif;
+}
+
+.p1 {
+  margin-right: 188px;
+  margin-top: 100px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.p2 {
+  margin-right: 278px;
+  margin-top: -25px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.p3 {
+  margin-right: 213px;
+  margin-top: 30px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.button {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 30px;
+  background-color: rgb(231, 242, 242);
+  margin-left: 850px;
+  margin-right: 270px;
+  border-radius: 50px;
+  opacity: 0.6;
+  box-shadow: 0 20px 20px rgb(14, 96, 101);
+}
+
+#button {
+  color: rgb(210, 15, 175);
+  font-size: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  margin-right: 240px;
+}
+
+.ic1,
+.ic2,
+.ic3 {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 10px 10px rgb(99, 114, 119);
+  border-radius: 50%;
+}
+
+.ic1,
+.ic2,
+.ic3:hover {
+  cursor: pointer;
+}
